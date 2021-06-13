@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Plants</title>
+  
+  <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<title>Html</title>
+
+
+
+<body>
+  
+  <div class="wrapper">
+    <div class="left-col">
+      <img src="images/logo.png" class="logo">
+      
+      <div class="content">
+        <h1>Add plants to your Living Space</h1>
+        <p>Plants are an inexpensive means to accessorizing your space and color and texture </p>
+        
+        <button type="button">Learn More</button>
+      
+      
+      
+      <div class="right-col">
+      				
+      <div class="slider">
+      				<img src="images/pic-1.jpg"	id="slide">
+      				
+      			<div class="slider-content">
+      				<h2>Where can I find ideas for small   rooms?</h2>
+      				<hr>
+      				 <p>They can absorb pollutants and remove harmful gases <br>from the air. No home should be without these wonderful greens! Desgining small rooms comes with a completely different challenge.</p>
+      			
+      			
+    <div class="controller">
+    				<img src="images/back.png" id="BackBtn">
+    		<div class="vertical-line">
+    						
+    						
+    						<div class="controler">
+    						<img src="images/next.png" id="NextBtn">
+    						
+    						</div>
+    		</div>
+    				
+    				
+    				
+    				
+    </div>
+      				
+      				
+      				
+      				
+      </div>
+              
+      </div>
+        
+            
+   
+           
+   </div>
+   </div>
+   </div>
+            
+
+    
+  <script>
+  				
+var slide = document.getElementById("slide");                  var BackBtn = document.getElementById("BackBtn");
+var NextBtn = document.getElementById("NextBtn");
+
+     var slideimages = new Array( 
+      "images/pic-1.jpg",
+      "images/pic-3.jpg",
+      "images/pic-4.jpg",
+  
+  );
+
+         let i = 0;
+         NextBtn.onclick = function(){
+         
+         if(i < 2){
+         
+         
+         slide.src = slideimages[i+1];
+       i++;
+         
+         }
+         
+         
+   }
+   BackBtn.onclick = function(){
+         
+         if(i > 0){
+         
+         
+         slide.src = slideimages[i-1];
+       i--;
+         
+         }
+      }
+   
+   </script>
+    
+   
+         
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</body>
+</html>
+ 
+
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+</html>
+				
