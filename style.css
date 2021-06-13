@@ -155,30 +155,43 @@ hr{
 
 /*----media query for small screen devices-----*/
 
-@media only screen and(max-width:800px){
-.login{
+@media only screen and ( max-width: 800px )
+{
+ .login
+
+{
       margin: 30px auto;
 
       
 }
-.left-col , .right-col{
+ .left-col , .right-col
+
+{
         flex-basis: 100%;
         
 }
-.content{
+ .content
+
+{
         left: 0;
         padding: 20px;
         text-align: center;
         
 }
-.content h1{
+ .content h1
+
+{
         font-size: 34px;
         line-height: 38px;
 }
-.slider{
+ .slider
+
+{
        height: auto;
 }
-.slider-content{
+ .slider-content
+
+{
 				height: auto;
 }
 				
